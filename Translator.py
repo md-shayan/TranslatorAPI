@@ -134,7 +134,7 @@ while True:
     source_lang = input("Enter the text's language code (auto for auto detection): ")
     target_lang = input("Enter the language code of the language you want to translate the text to: ")
 
-    if source_lang not in LANGUAGE_CODES.values() or source_lang not in LANGUAGE_CODES.values():
+    if source_lang not in LANGUAGE_CODES.values() or target_lang not in LANGUAGE_CODES.values():
         print("Invalid/Unsupported language code\n")    
     else:
         text = input("Enter the text you want to translate: ")
